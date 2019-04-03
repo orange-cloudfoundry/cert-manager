@@ -39,3 +39,7 @@ image:
 # configuration caBundle to talk to itself in kubernetes 1.11+
 # see https://github.com/kubernetes/kubernetes/pull/62649
 injectAPIServerCA: true
+
+# Give the opportunity to set a security Context
+# ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+securityContext: {}
